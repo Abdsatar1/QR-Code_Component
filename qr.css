@@ -1,0 +1,42 @@
+html, body {
+    background-color: #D5E1EF;
+    height: 100%;          /* Full height for body and html */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    box-sizing: border-box; 
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr {
+    box-sizing: border-box;
+    width: 320px;
+    height: 499px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+}
+
+.qr img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.qr p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    padding: 0 16px;
+
+}
+
+.qr p.sm {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: 140%;
+}
