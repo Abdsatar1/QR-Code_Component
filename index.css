@@ -32,19 +32,22 @@ html, body {
 }
 
 /* Style for the main paragraph text */
-.qr p {
+.qr p.fr {
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
     text-align: center;
     padding: 0 16px;
+    margin: 0;
 }
 
 /* Style for the smaller paragraph text */
 .qr p.sm {
     font-weight: 400;
     font-size: 15px;
-    text-align: center;
     letter-spacing: 0.2px;
     line-height: 140%;
+    text-align: center;
+    padding: 0 16px;
+    margin: 0;
 }
