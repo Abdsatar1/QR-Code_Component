@@ -1,14 +1,16 @@
+/* Apply global styles */
 html, body {
     background-color: #D5E1EF;
-    height: 100%;          /* Full height for body and html */
+    height: 100%;  /* Full height for body and html */
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;   
-    box-sizing: border-box; 
+    align-items: center;
+    box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
 }
 
+/* Style for the main content */
 .qr {
     box-sizing: border-box;
     width: 320px;
@@ -16,23 +18,29 @@ html, body {
     background-color: #ffffff;
     border-radius: 20px;
     padding: 16px 16px 40px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
+/* Style for the QR code image */
 .qr img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
 }
 
+/* Style for the main paragraph text */
 .qr p {
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
     text-align: center;
     padding: 0 16px;
-
 }
 
+/* Style for the smaller paragraph text */
 .qr p.sm {
     font-weight: 400;
     font-size: 15px;
